@@ -91,7 +91,7 @@ header {
     font-weight: 400;
     height: 50px;
     border-radius: 100%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border: none;
     cursor: pointer;
     background-color: #212428;
@@ -125,4 +125,133 @@ header {
     word-break: break-all; 
     margin-top: 10px;
     font-weight: 500;
+}
+
+.welcome {
+    width: 1300px;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.welcome .left, .welcome .right{
+    height: 100%;
+    position: relative;
+}
+
+.welcome .left {
+    width: 60%;
+}
+.welcome .right {
+    width: 40%;
+}
+
+.welcome .back {
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.welcome .right .body {
+    height: 33rem;
+    padding: 0 1rem;
+    width: content;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #1F2125;
+}
+
+.welcome .right .body img {
+    height: 41rem; 
+    width: auto;
+    align-self: flex-end;
+    object-fit: cover;
+    background-color: transparent;
+    
+}
+
+.welcome .left .p1 {
+    padding-top: 100px;
+    padding-left: 50px;
+    color: #C4CFDE;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.welcome .left .p2 {
+    padding-top: 30px;
+    padding-left: 50px;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+}
+
+.welcome .left .p3 {
+    width: 570px;
+    padding-top: 30px;
+    padding-left: 50px;
+    color: #C4CFDE;
+    line-height: 30px;
+}
+
+.welcome .left .p4 {
+    color: #C4CFDE;
+    font-size: 14px;
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+}
+
+.icons1 {
+    margin-left: 50px;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 45px;
+}
+
+.icons1 a, .icons2 a {
+    width: 55px;
+    height: 55px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    color: #C4CFDE;
+}
+
+.welcome .left .p5 {
+    position: absolute;
+    bottom: 150px;
+    right: 170px;
+    color: #C4CFDE;
+}
+
+.icons2 {
+    margin-left: 50px;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 45px;
+    right: 40px;
+}
+
+.icons1 a:hover, .icons2 a:hover {
+    background-color: #181A1E;
+    transition: 0.5s;
+    transform: translateY(-6px);
 }
